@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/font-face.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <img src="images/bootstrap-logo.png" class="mt-5" width="100px" alt="">
+            <h1 class="text-center">ارتباطات رسپینا</h1>
+            <h2 class="text-center">فرم خرید</h2>
+            <p class="lead text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                گرافیک است. </p>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-8 order-md-1 order-2">
+                <h4 text="text-muted">آدرس شما</h4>
+                <form action="#" class="needs-validation" novalidate>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <label for="firstname">نام</label>
+                            <input type="text" class="form-control" required id="firstname">
+                            <div class="valid-feedback">
+                                نام مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا نام را وارد کنید!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastname">نام خانوادگی</label>
+                            <input type="text" class="form-control" required id="lastname">
+                            <div class="valid-feedback">
+                                نام مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا نام را وارد کنید!
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="username">نام کابری</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">example.com@</span>
+                            </div>
+                            <input type="text " class="form-control text-left" id="username" required>
+                            <div class="valid-feedback">
+                                نام مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا نام را وارد کنید!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <label for="email" class="text-muted">ایمیل</label>
+                        <input type="email" class="form-control text-left" required id="email" placeholder="anybody@example.com">
+                        <div class="valid-feedback">
+                            ایمیل مناسب است.
+                        </div>
+                        <div class="invalid-feedback">
+                            لطفا ایمیل را وارد کنید!
+                        </div>
+
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="address">آدرس</label>
+                        <input type="text" class="form-control" id="address" required placeholder="البرز، فلکه سوم" >
+                        <div class="valid-feedback">
+                            آدرس مناسب است.
+                        </div>
+                        <div class="invalid-feedback">
+                            لطفا آدرس را وارد کنید!
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address2">2 آدرس</label>
+                        <input type="text" class="form-control" id="address2" required placeholder="البرز، فلکه دوم" >
+                        <div class="valid-feedback">
+                            آدرس مناسب است.
+                        </div>
+                        <div class="invalid-feedback">
+                            لطفا آدرس را وارد کنید!
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-4">
+                            <label for="country">کشور</label>
+                            <select name="country" id="country" class="form-control" required>
+                                <option></option>
+                                <option value="ir">ایران</option>
+                            </select>
+                            <div class="valid-feedback">
+                                کشور مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا کشور را وارد کنید!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="state">استان</label>
+                            <select name="state" id="state" class="form-control" required>
+                                <option></option>
+                                <option value="ir">البرز</option>
+                            </select>
+                            <div class="valid-feedback">
+                                استان مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا استان را وارد کنید!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="city">شهر</label>
+                            <input type="text" class="form-control" id=city required>
+                            <div class="valid-feedback">
+                                استان مناسب است.
+                            </div>
+                            <div class="invalid-feedback">
+                                لطفا استان را وارد کنید!
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                        <label for="customCheck1" class="custom-control-label">قبل از ارسال برای هماهنگی تماس گرفته شود.</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                        <label for="customCheck2" class="custom-control-label">قبل ذخیره سازی برای ذخیره سازی بعدی</label>
+                    </div>
+                    <hr class="mb-4">
+                    <h4 class="mb-4">نوع پرداخت</h4>
+                    <div class="my-3">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="paymentMethod" id="radio1" class="custom-control-input" checked required>
+                            <label for="radio1" class="custom-control-label">بانک ملت</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="paymentMethod" id="radio2" class="custom-control-input"  required>
+                            <label for="radio2" class="custom-control-label">بانک آینده</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="paymentMethod" id="radio3" class="custom-control-input"  required>
+                            <label for="radio3" class="custom-control-label"> زرین پال</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <label for="cardNumber">شماره کارت</label>
+                            <input type="text" class="form-control" id="cardNumber">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="cardName">نام دارنده کارت</label>
+                            <input type="text" class="form-control" id="cardName">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <div class="row">
+ <div class="col-md-6">
+        <label for="cardNumberBrowse">شماره کارت</label>
+        <input type="text" class="form-control" id="cardNumberBrowse" readonly>
+ </div>
+ <div class="col-md-6">
+        <label for="cardNameBrowse">نام دارنده کارت</label>
+        <input type="text" class="form-control" id="cardNameBrowse" readonly>
+ </div>
+                            </div>
+                           
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block">ادامه ثبت و خرید</button>
+                </form>
+
+            </div>
+            <hr class="mb-4">
+            <div class="col-md-4 order-md-2 order-1">
+                <h4 class="text-muted">سبد خرید شما</h4>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
